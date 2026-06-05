@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
+  <url><loc>https://orchidcustomhomes.ca/</loc><lastmod>2026-06-05</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/about.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/services.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/communities.html</loc><lastmod>2026-06-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/home-models.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/gallery.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog.html</loc><lastmod>2026-06-05</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/contact.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
+
+  <!-- Service detail pages -->
+  <url><loc>https://orchidcustomhomes.ca/service-custom-home-building.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-lot-purchase-assistance.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-infill-development.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-architectural-planning.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-city-permitting.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-engineering.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-demolition.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-electrical-gas-mechanical.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-project-construction.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-landscaping-exterior.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/service-funding-guidance.html</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Resources / blog articles -->
+  <url><loc>https://orchidcustomhomes.ca/blog-custom-vs-preowned.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-buying-a-lot.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-infill-opportunities.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-zoning-bylaw-infill.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-alberta-winters-design.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-construction-financing.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-single-vs-duplex.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-questions-to-ask-builder.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-rental-yield-infill.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://orchidcustomhomes.ca/blog-new-home-warranty.html</loc><lastmod>2026-06-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+
+</urlset>

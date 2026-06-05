@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block nothing of value; this is a public marketing site.
+Disallow: /assets/_partials.html
+
+Sitemap: https://orchidcustomhomes.ca/sitemap.xml
