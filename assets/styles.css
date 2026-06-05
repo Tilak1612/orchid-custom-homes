@@ -191,7 +191,11 @@ p { margin: 0; }
   position: relative; min-height: 100vh; display: flex; align-items: center;
   background: linear-gradient(180deg, rgba(10,28,24,.4), rgba(10,28,24,.78)),
               url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2400&q=80");
-  background-size: cover; background-position: center; padding: 120px 0 0;
+  background-size: cover; background-position: center;
+  /* bottom padding reserves room for the .trust-grid card row, which pulls up
+     -56px to "float" over the hero. Keeping >56px here prevents it from
+     colliding with .hero-metrics regardless of viewport height. */
+  padding: 120px 0 72px;
 }
 .hero::after {
   content: ""; position: absolute; inset: 0;
@@ -659,6 +663,10 @@ p { margin: 0; }
   .metric { flex: 1 1 40%; }
   .about-float { left: 12px; }
   .page-hero { padding: 150px 0 64px; }
+  /* On phones the trust cards stack into a tall column, so the floating
+     overlap reads awkwardly — sit them flush below the hero instead. */
+  .hero { padding-bottom: 40px; }
+  .trust-grid { margin-top: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
