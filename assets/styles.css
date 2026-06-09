@@ -676,6 +676,31 @@ p { margin: 0; }
   .hero { padding-bottom: 40px; }
   .trust-grid { margin-top: 0; }
 }
+/* ---------- sticky mobile Call Now bar ---------- */
+.call-now {
+  display: none;
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 90;
+  padding: 9px 14px calc(9px + env(safe-area-inset-bottom, 0px));
+  background: color-mix(in srgb, var(--bg) 90%, transparent);
+  backdrop-filter: blur(14px) saturate(160%);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -6px 24px rgba(20,40,35,.12);
+}
+.call-now a {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  width: 100%; padding: 15px 18px; border-radius: 12px;
+  background: var(--accent); color: #fff;
+  font-family: var(--sans); font-weight: 600; font-size: 16px; letter-spacing: .01em;
+  box-shadow: 0 8px 22px rgba(20,70,61,.32);
+}
+.call-now a:active { transform: translateY(1px); }
+.call-now svg { width: 19px; height: 19px; flex-shrink: 0; }
+.call-now .num { font-weight: 500; opacity: .92; font-variant-numeric: tabular-nums; }
+@media (max-width: 920px) {
+  .call-now { display: block; }
+  body { padding-bottom: 78px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
