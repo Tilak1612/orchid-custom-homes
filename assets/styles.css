@@ -153,6 +153,14 @@ p { margin: 0; }
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
 .brand-name { font-family: var(--serif); font-size: 1.32rem; font-weight: 600; letter-spacing: -.01em; color: var(--text); }
 .brand-sub { font-family: var(--sans); font-size: 8.5px; font-weight: 600; letter-spacing: .28em; text-transform: uppercase; color: var(--text-mut); margin-top: 3px; }
+/* Over-hero (top of page): a subtle top-down tint + light blur so the nav
+   reads against the hero photo without becoming a solid bar. Transitions
+   smoothly into the heavier .scrolled state as the user scrolls. */
+.header.over-hero:not(.scrolled) {
+  background: linear-gradient(to bottom, rgba(20,30,28,.55), rgba(20,30,28,.12));
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+}
 .header.over-hero:not(.scrolled) .brand-name { color: #fff; }
 .header.over-hero:not(.scrolled) .brand-sub  { color: rgba(255,255,255,.7); }
 .header.over-hero:not(.scrolled) .nav-links a { color: rgba(255,255,255,.92); }
